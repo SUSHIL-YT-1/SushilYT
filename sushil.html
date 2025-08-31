@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ne">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>मेरो समाचार पोर्टल</title>
+  <style>
+    body { margin: 0; font-family: 'Arial', sans-serif; line-height: 1.5; background: #fff; color: #333; }
+    header { background: #003366; padding: 1rem; color: #fff; }
+    header nav { display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; }
+    header nav a { color: #fff; text-decoration: none; font-weight: bold; }
+    .trending { background: #f4f4f4; padding: 0.75rem; }
+    .trending span { font-weight: bold; margin-right: 0.5rem; }
+    .trending a { margin-right: 0.75rem; color: #0073e6; text-decoration: none; }
+    .articles { display: grid; grid-template-columns: repeat(auto-fit,minmax(280px,1fr)); gap: 1rem; padding: 1rem; }
+    .card { border: 1px solid #ddd; border-radius: 5px; overflow: hidden; }
+    .card img { width: 100%; height: auto; display: block; }
+    .card-content { padding: 0.75rem; }
+    .card-content h3 { margin: 0 0 0.5rem; font-size: 1.1rem; }
+    .card-content p { margin: 0; font-size: 0.95rem; color: #555; }
+    footer { background: #003366; color: #fff; padding: 1rem; text-align: center; font-size: 0.9rem; }
+    footer a { color: #aad4ff; text-decoration: none; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <a href="#">समाचार</a>
+      <a href="#">राजनीति</a>
+      <a href="#">स्वास्थ्य</a>
+      <a href="#">धर्म</a>
+      <a href="#">शिक्षा</a>
+      <a href="#">खेलकुद</a>
+      <a href="#">प्रवास</a>
+      <a href="#">बिजनेश</a>
+      <a href="#">साहित्य, कला / चलचित्र</a>
+    </nav>
+  </header>
+
+  <div class="trending">
+    <span>Trending:</span>
+    <a href="#">खबर १</a>
+    <a href="#">खबर २</a>
+    <a href="#">खबर ३</a>
+    <a href="#">खबर ४</a>
+  </div>
+
+  <section class="articles">
+    <div class="card">
+      <img src="https://via.placeholder.com/400x200" alt="समाचार १">
+      <div class="card-content">
+        <h3>समाचार शीर्षक १</h3>
+        <p>समाचार विवरण वा संक्षिप्त रूपमा यहाँ दिइनुहोस्।</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/400x200" alt="समाचार २">
+      <div class="card-content">
+        <h3>समाचार शीर्षक २</h3>
+        <p>संक्षिप्त विवरण वा सारांश यहाँ।</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/400x200" alt="समाचार ३">
+      <div class="card-content">
+        <h3>समाचार शीर्षक ३</h3>
+        <p>थप विवरण यहाँ दिन सकिन्छ।</p>
+      </div>
+    </div>
+    <!-- थप कार्डहरू थप्न सक्नुहुन्छ -->
+  </section>
+
+  <footer>
+    <p>सम्पर्क: email@domain.com | फोन: +977-98xxxxxxx</p>
+    <p>प्रकाशक: तपाईंको नाम • सम्पादक: तपाईंको नाम • टीम: सदस्यहरू यहाँ उल्लेख गर्नुहोस्</p>
+    <p>© 2025 / तपाईंको साइट नाम। सबै अधिकार सुरक्षित।</p>
+  </footer>
+
+</body>
+</html>
